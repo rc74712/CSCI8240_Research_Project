@@ -3,8 +3,11 @@ import angr
 from angrutils import *
 
 # CHANGE BOTH OF THESE
-sample = './testing inputs/test1.o'
-target = '[esp + 0x24]'
+sample = './testing inputs/test.o'
+target = '[esp + 0x20]'
+
+# sample = './testing inputs/test1.o'
+# target = '[esp + 0x24]'
 
 # tree
 class BinaryTree:
